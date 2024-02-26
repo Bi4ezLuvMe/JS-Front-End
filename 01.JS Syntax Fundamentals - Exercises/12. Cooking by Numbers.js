@@ -1,0 +1,93 @@
+function cookingNumber(number,operation1,operation2,operation3,operation4,operation5){
+   let number1 = parseFloat(number);
+   switch(operation1){
+    case'chop':
+    number1/=2;
+    break;
+    case'dice':
+    number1 = Math.sqrt(number1);
+    break;
+    case'spice':
+    number1+=1;
+    break;
+    case'bake':
+    number1*=3;
+    break;
+    case'fillet':
+    number1*=0.8;
+    break;
+}
+console.log(number1)
+switch(operation2){
+    case'chop':
+    number1/=2;
+    break;
+    case'dice':
+    number1 = Math.sqrt(number1);
+    break;
+    case'spice':
+    number1+=1;
+    break;
+    case'bake':
+    number1*=3;
+    break;
+    case'fillet':
+    number1*=0.8;
+    break;
+}
+console.log(number1)
+switch(operation3){
+    case'chop':
+    number1/=2;
+    break;
+    case'dice':
+    number1 = Math.sqrt(number1);
+    break;
+    case'spice':
+    number1+=1;
+    break;
+    case'bake':
+    number1*=3;
+    break;
+    case'fillet':
+    number1*=0.8;
+    break;
+}
+console.log(number1)
+switch(operation4){
+    case'chop':
+    number1/=2;
+    break;
+    case'dice':
+    number1 = Math.sqrt(number1);
+    break;
+    case'spice':
+    number1+=1;
+    break;
+    case'bake':
+    number1*=3;
+    break;
+    case'fillet':
+    number1*=0.8;
+    break;
+}
+console.log(number1)
+switch(operation5){
+    case'chop':
+    number1/=2;
+    break;
+    case'dice':
+    number1 = Math.sqrt(number1);
+    break;
+    case'spice':
+    number1+=1;
+    break;
+    case'bake':
+    number1*=3;
+    break;
+    case'fillet':
+    number1*=0.8;
+    break;
+}
+console.log(number1)
+}
