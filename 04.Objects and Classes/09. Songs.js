@@ -14,12 +14,9 @@ const song = new Song(type,name,length);
 songs.push(song);
 }
 for (const curr of songs) {
-    if(wantedType==='all'){
-        console.log(curr.name);
-        continue;
-    }
     if(curr.type===wantedType){
         console.log(curr.name);
     }
 }
 }
+solve([3, 'favourite_DownTown_3:14', 'favourite_Kiss_4:16', 'favourite_Smooth Criminal_4:01', 'favourite'])
